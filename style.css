@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: Arial;
+}
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+   
+}
+
+/* box */
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 12px;
+    
+}
+.add-second{
+    color: #ffffff;
+    font-size: 1rem;
+    margin-left:2px ;
+}
+
+/* search */
+.nav-search{
+    display: flex;
+    background-color: aqua;
+    height: 40px;
+    width: 620px;
+    border-radius: 5px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    width: 10%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #f3f3f3;
+    text-align: center;
+    border: none;
+}
+.search-input{
+    width: 85%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    background-color: #febd68;
+    display: inline;
+    width: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 1.2rem;
+}
+
+/* signin */
+span{
+    font-size: 0.7rem;
+    color: #ffffff;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* cart */
+.nav-cart i{
+    font-size: 32px;
+}
+.nav-cart{
+    font-weight:700 ;
+}
+
+/* panel */
+.panel{
+    background-color: #222f3d;
+    color: #ffffff;
+    display: flex;
+    height: 39px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.panel-all{
+   
+    
+}
+.panel-details {    
+    width:70% ;   
+    display: flex; 
+}
+.panel-details p{    
+    display: inline;
+    margin-left: 20px;
+}
+.panel-shop{
+    font-weight: 600;
+    display: inline;
+}
+
+/* hero section */
+.hero-section{
+    background-image: url("hero_image.jpg");
+    height: 350px;
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-message{
+    background-color: #ffffff;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 90%;
+    margin-bottom: 35px;
+}
+.hero-message a{
+    color: #007185;
+}
+
+/* shop-section */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: azure;
+}
+.box{
+    
+    background-color: white;
+    /* border: 1px solid black; */
+    width: 23%;
+    height: 400px;
+    margin: 10px;
+    padding: 2.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 4px;
+}
+.box img{
+    width: 280px;
+    height: 300px;
+    margin: 8px;
+}
+.box a{
+    margin-left: 8px;    
+    color: #007185;
+    
+}
+.box h2{
+    margin-left: 8px;
+}
+
+/* footer */
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 49px;
+    margin-top: 20px;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-panel2 ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+ul a{
+    font-size: 0.85rem;
+    margin-top: 7px;
+    color: #dddddd;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-panel3 img{
+    height: 50px;
+}
+.foot-panel4{
+    background-color: #0F1111;
+    color: white;
+    height: 68px;
+    font-size: 0.7rem;
+    
+}
+.pages{    
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+   padding-top: 25px;
+}
+.foot-panel4 a{
+    margin-left: 6px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+}
